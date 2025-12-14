@@ -29,12 +29,12 @@ const Navigation = () => {
     >
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <a href="#" className="font-display text-2xl font-medium text-secondary tracking-wide">
+          <a href="#" className="font-display text-2xl font-medium text-secondary tracking-wide mr-8">
             RM
           </a>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-8 flex-1">
             {navItems.map((item) => (
               <a
                 key={item.label}
