@@ -17,7 +17,7 @@ const contactLinks = [
     icon: Linkedin,
     label: "LinkedIn",
     value: "/rohan-melanta",
-    href: "https://linkedin.com/in/rohan-melanta",
+    href: "https://www.linkedin.com/in/rohan-melanta-1b7295170/",
   },
   {
     icon: MapPin,
@@ -38,8 +38,8 @@ const Contact = () => {
           <p className="section-subtitle mb-4">Get In Touch</p>
           <h2 className="section-title mb-8">Let's Connect</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12">
-            Seeking opportunities in luxury hospitality where I can contribute my strong front office 
-            service foundation, guest personalization expertise, and team-training capabilities to 
+            Seeking opportunities in luxury hospitality where I can contribute my strong front office
+            service foundation, guest personalization expertise, and team-training capabilities to
             elevate the guest experience.
           </p>
 
