@@ -10,21 +10,15 @@ const contactLinks = [
   {
     icon: Mail,
     label: "Email",
-    value: "melanta08@gmail.com",
-    href: "mailto:melanta08@gmail.com",
+    value: "rmelanta08@gmail.com",
+    href: "mailto:rmelanta08@gmail.com",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "/rohan-melanta",
+    value: "Rohan Melanta",
     href: "https://www.linkedin.com/in/rohan-melanta-1b7295170/",
-  },
-  {
-    icon: MapPin,
-    label: "Location",
-    value: "Mumbai, India",
-    href: null,
-  },
+  }
 ];
 
 const Contact = () => {
@@ -43,9 +37,9 @@ const Contact = () => {
             elevate the guest experience.
           </p>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="flex flex-wrap justify-center gap-4">
             {contactLinks.map((link) => (
-              <div key={link.label} className="card-elegant text-center group">
+              <div key={link.label} className="card-elegant text-center group w-full sm:w-72">
                 {link.href ? (
                   <a
                     href={link.href}
@@ -59,7 +53,7 @@ const Contact = () => {
                     <p className="text-xs text-muted-foreground uppercase tracking-wider mb-1">{link.label}</p>
                     <p className="text-secondary font-medium flex items-center justify-center gap-1">
                       {link.value}
-                      <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-opacity" />
+                      <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0" />
                     </p>
                   </a>
                 ) : (

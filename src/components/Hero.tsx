@@ -62,14 +62,14 @@ const Hero = () => {
                 <span className="text-xs sm:text-sm">+91 88823 73956</span>
               </a>
               <a
-                href="mailto:melanta08@gmail.com"
+                href="mailto:rmelanta08@gmail.com"
                 className="flex items-center gap-2 text-muted-foreground hover:text-secondary transition-colors"
               >
                 <Mail size={14} className="sm:w-4 sm:h-4" />
-                <span className="text-xs sm:text-sm">melanta08@gmail.com</span>
+                <span className="text-xs sm:text-sm">rmelanta08@gmail.com</span>
               </a>
               <a
-                href="https://linkedin.com/in/rohan-melanta"
+                href="https://www.linkedin.com/in/rohan-melanta-1b7295170/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-muted-foreground hover:text-secondary transition-colors"
