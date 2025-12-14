@@ -6,10 +6,9 @@ const experiences = [
     company: "The St. Regis Goa Resort",
     period: "Aug 2025 – Present",
     points: [
-      "Conduct seamless check-ins, check-outs, room allocations, and billing for elite Bonvoy members, VIP & VVIP guests",
-      "Coordinate closely with concierge, butler team, housekeeping, engineering, and F&B for flawless guest journeys",
-      "Perform service recovery with empathy and precision while ensuring brand standards are fully met",
-      "Recognized for consistently maintaining high GSS scores and positive guest mentions",
+      "Managed check-ins, check-outs, and billing for Bonvoy elite members and VIP guests",
+      "Coordinated across departments to deliver seamless guest experiences and service recovery",
+      "Consistently maintained high Guest Satisfaction Scores and positive guest feedback",
     ],
   },
   {
@@ -17,9 +16,9 @@ const experiences = [
     company: "The St. Regis Goa Resort",
     period: "Mar 2025 – Jul 2025",
     points: [
-      "Led a team of butlers, ensuring consistent execution of St. Regis signature rituals and standards",
-      "Managed VIP Manor guests, curated personalized itineraries, and handled sensitive guest details with discretion",
-      "Conducted training on packing/unpacking, garment care, silver service, and guest preference tracking",
+      "Led butler team ensuring St. Regis signature rituals and luxury service standards",
+      "Managed VIP Manor guests with personalized itineraries and discreet service",
+      "Trained team on silver service, garment care, and guest preference management",
     ],
   },
   {
@@ -27,9 +26,9 @@ const experiences = [
     company: "The St. Regis Goa Resort",
     period: "Feb 2024 – Feb 2025",
     points: [
-      "Delivered hallmark St. Regis Butler Service including unpacking/packing, garment steaming, and itinerary planning",
-      "Anticipated guest needs using preference sheets, ensuring proactive and personalized service",
-      "Maintained exceptional grooming and service etiquette as per Marriott LQA & Forbes standards",
+      "Delivered signature St. Regis Butler Service including unpacking, garment care, and itinerary planning",
+      "Anticipated guest needs through preference tracking for proactive, personalized service",
+      "Maintained Forbes and Marriott LQA grooming and service standards",
     ],
   },
   {
@@ -37,19 +36,19 @@ const experiences = [
     company: "The Leela Kovalam, A Raviz Hotel",
     period: "Sep 2022 – Oct 2023",
     points: [
-      "Managed 64 club rooms guests, private stays, and leisure itineraries with a focus on personalization",
-      "Executed luxury in-room dining setups, turndown services, and exclusive amenities",
-      "Developed strong guest-handling skills and cultural sensitivity",
+      "Managed 64 club rooms with focus on personalized guest experiences and leisure itineraries",
+      "Executed luxury in-room dining, turndown services, and exclusive amenities",
+      "Developed strong guest-handling and cultural sensitivity skills",
     ],
   },
   {
-    title: "Work-Integrated Training – OJT",
+    title: "Work-Integrated Training",
     company: "The St. Regis Mumbai",
     period: "Sep 2019 – Jul 2022",
     points: [
-      "Rotated through core departments including finance, sales and marketing",
-      "Built foundation in luxury operating standards, grooming ethics, and guest engagement",
-      "Frequently appreciated by seniors for discipline, quick learning, and communication skills",
+      "Rotated through finance, sales, and marketing departments",
+      "Built foundation in luxury hospitality standards and guest engagement",
+      "Recognized for discipline, quick learning, and communication skills",
     ],
   },
 ];

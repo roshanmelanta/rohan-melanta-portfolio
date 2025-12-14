@@ -20,9 +20,9 @@ const Hero = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-4 -right-2 sm:-bottom-2 sm:-right-2 w-24 h-24 sm:w-28 sm:h-28 bg-gradient-abyss rounded-full flex flex-col items-center justify-center text-center p-2">
-              <span className="font-display text-2xl sm:text-3xl text-secondary leading-none">5+</span>
-              <span className="text-[10px] sm:text-xs text-secondary/80 uppercase tracking-wider leading-tight">years of<br />experience</span>
+            <div className="absolute -bottom-4 -right-2 sm:-bottom-2 sm:-right-2 w-24 h-24 sm:w-28 sm:h-28 bg-gradient-abyss rounded-full flex flex-col items-center justify-center text-center p-3">
+              <span className="font-display text-xl sm:text-2xl text-secondary leading-none">5+</span>
+              <span className="text-[9px] sm:text-[10px] text-secondary/80 uppercase tracking-wide leading-tight mt-1">years of<br />experience</span>
             </div>
           </div>
 
