@@ -28,18 +28,14 @@ const Navigation = () => {
       }`}
     >
       <div className="container mx-auto px-6 py-4">
-        <div className="flex items-center justify-between">
-          <a href="#" className="font-display text-2xl font-medium text-secondary tracking-wide mr-8">
-            RM
-          </a>
-
+        <div className="flex items-center justify-center w-full">
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8 flex-1">
+          <div className="hidden md:flex items-center justify-center gap-6 lg:gap-10">
             {navItems.map((item) => (
               <a
                 key={item.label}
                 href={item.href}
-                className="text-muted-foreground hover:text-secondary transition-colors duration-300 text-sm uppercase tracking-widest link-underline"
+                className="text-muted-foreground hover:text-secondary transition-colors duration-300 text-xs lg:text-sm uppercase tracking-widest link-underline whitespace-nowrap"
               >
                 {item.label}
               </a>
